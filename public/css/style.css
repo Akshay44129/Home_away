@@ -1,0 +1,140 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal;  */
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+/* navbar  */
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+
+}
+.nav-link{
+    color: #222222 !important;
+}
+.f-info-links
+.f-info-brand{
+    align-items: center;  
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+  }
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-socials{
+    /* text-align: center; */
+     width: 100%;
+     display: flex;
+     align-items:center;
+     justify-content: center;
+     /* font-size: 1.25rem;
+     margin-right: 2rem; */
+}
+
+
+.f-info-socials i{
+    font-size: 1.25rem;
+    margin-right:1rem ;
+}
+.f-info{
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:space-evenly;
+}
+
+
+/* cards  */
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+    width: 18rem;
+  
+
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    /* width: 100% !important; */
+    object-fit: cover !important;
+    width: 18rem;
+    height: 18rem;
+
+}
+.card-body{
+    padding: 0 !important;
+
+}
+.card-text{
+
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* card effect  */
+.card-img-overlay{
+   opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: #222222;
+}
+.add-btn{
+    background-color:#fe424d;
+    border: none !important;
+}
+
+
+
+/* for edit  */
+.edit-btn{
+    background-color:#fe424d;
+    border: none !important;
+}
+
+
+/* show page  */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+/* .container{
+    display: flex;
+} */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
